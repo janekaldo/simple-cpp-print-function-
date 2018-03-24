@@ -27,3 +27,4 @@ auto main() -> int
 	system("pause");
 	return 0;
 }
+
