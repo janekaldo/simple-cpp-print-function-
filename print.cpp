@@ -19,7 +19,11 @@ auto print(std::string a, const int color, const int type, bool endl) -> void
 
 auto main() -> int
 {
-	print("xd", colors::blue, types::cout, true);
+	//  example usage
+	print("Demo", colors::lightgreen, types::cout, true);
+	print("Demo#2", colors::lightred, types::cout, false);
+	print("Demo#3", colors::white, types::cout, false);
+	
 	system("pause");
 	return 0;
 }
