@@ -6,7 +6,7 @@ enum types { cout, cin };
 enum colors { black, blue, green, cyan, red, magenta, brown, lightgrey, darkgrey, lightblue, lightgreen, lightcyan, lightred, lightmagenta, yellow, white };
 
 
-auto print(std::string a, const int color, const int type, bool endl) -> void
+auto print(std::string a, const int color, const int type, bool endl)
 {
 	if (type == types::cout) {
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
